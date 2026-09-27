@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background(176, 203, 255);
+  background('red');
   
   for (let x=0; x<columns; x++){
     for (let y=0; y<rows; y++){
@@ -34,7 +34,7 @@ function draw() {
 }
 
 function mousePressed() {
-  stroke(0, 16, 166);
+  stroke('jetblack');
   strokeWeight(3);
  
 }

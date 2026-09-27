@@ -70,8 +70,8 @@ body {
 
   /* Page colors */
 
-  background: rgb(24, 6, 162);
-  color: white;
+  background: white;
+  color: red;
 
 
  
@@ -104,7 +104,7 @@ body {
 a {
 
   /* Link text color */
-  color: white;
+  color: red;
 
   /* Remove the default underline */
   text-decoration: none;

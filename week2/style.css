@@ -1,0 +1,19 @@
+body {
+  background: pink;
+  font-family: Victorian Decade Demo Version;
+  
+}
+
+h1 {
+  color: red;
+  font-size: 75px;
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  max-width: 100%;
+  border: 2px solid red;
+  border-radius: 50px;
+  align-items: center;
+}
