@@ -1,6 +1,6 @@
 body {
   background: white;
-  font-family: terminal-grotesque;
+  font-family: terminal-grotesque, sans-serif;
   
 }
 
@@ -14,5 +14,5 @@ img {
   width: 500px;
   max-width: 100%;
   align-items: center;
-  padding: 100;
+  padding: 100px;
 }
