@@ -1,9 +1,9 @@
-/*body {
-  background: white;
+body {
+  background: red;
   font-family: terminal-grotesque;
   
 }
-*/
+
 
 h1 {
   font-family: terminal-grotesque;
@@ -19,15 +19,14 @@ h1 {
     font-size: 20px;
     text-align: center
   }
+*/
 
-
-img {
+ img {
   width: 500px;
   max-width: 100%;
   align-items: center;
   padding: 100px;
-} */
- 
+} 
 
 
 
