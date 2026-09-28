@@ -1,15 +1,23 @@
-/* body {
+body {
   background: white;
   font-family: terminal-grotesque;
   
-} */
-
-h1 {
-  color: red;
-  font-size: 75px;
-  text-align: center;
 }
 
+h1 {
+  font-family: terminal-grotesque;
+  color: red;
+  font-size: 75px;
+  text-align: center
+  
+}
+
+footer{
+    font-family: terminal-grotesque;
+    color: red;
+    font-size: 20px;
+    text-align: center
+  }
 
 
 img {
