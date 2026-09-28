@@ -1,6 +1,6 @@
 body {
   background: white;
-  font-family: Victorian Decade Demo Version;
+  font-family: terminal-grotesque;
   
 }
 
@@ -10,11 +10,7 @@ h1 {
   text-align: center;
 }
 
-footer{
 
-font-family: terminal-grotesque;
-
-}
 
 img {
   width: 500px;
