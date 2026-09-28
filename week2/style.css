@@ -9,14 +9,14 @@
 
 body {
   background: white;
-  font-family: terminal-grotesque;
+  font-family: "MyFont";
   font-size: 75px;
   text-align: center
 }
 
 
 h1 {
-  font-family: terminal-grotesque;
+  font-family: "MyFont";
   color: red;
   font-size: 75px;
   text-align: center
