@@ -1,35 +1,18 @@
-
-
-
 body {
   background: white;
-  font-family: "MyFont";
-  font-size: 75px;
-  text-align: center
+  font-family: terminal-grotesque;
+  
 }
 
-
 h1 {
-  font-family: "MyFont";
   color: red;
   font-size: 75px;
-  text-align: center
-  
-} 
+  text-align: center;
+}
 
-
-
-
- img {
+img {
   width: 500px;
   max-width: 100%;
   align-items: center;
-  padding: 100px;
-} 
-
-
-
-
-
-
-
+  padding: 100;
+}
