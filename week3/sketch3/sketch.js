@@ -6,14 +6,19 @@ let font1;
 
 let letters = [];
 
+// function preload(){
+// font[0] = loadFont("/fonts/terminal-grotesque.tff");
 
+  
+  
+// }
 
  async function setup() {
   
   createCanvas(windowWidth, windowHeight);
- // angleMode(DEGREES);
+  angleMode(DEGREES);
 
-  font1 = await loadFont("font/terrminal-grotesque.ttf");
+  font1 = await loadFont('/fonts/terminal-grotesque.ttf');
   
 
 
@@ -22,9 +27,9 @@ let letters = [];
 }
 
 function draw() {
-  background(255);
+  background(0);
 
-for (let i = letters.length - .01; i >= 0; i--){
+for (let i = letters.length - 1; i >= 0; i--){
 letters[i].update();
 letters[i].display();
 
@@ -45,8 +50,4 @@ letters.push(new Letter(mouseX, mouseY));
 
 }
 
-function windowResized(){
 
-  resizeCanvas(windowWidth, windowHeight);
-  
-}
