@@ -25,7 +25,7 @@ update(){
    
   translate(this.x, this.y); // 
   rotate(this.angle);
-  textFont("helvetica");
+  textFont(helvetica);
   textSize(this.size);
   fill(0);
   noStroke();
