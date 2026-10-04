@@ -10,7 +10,7 @@ let letters = [];
 
  async function setup() {
   
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
 
   font1 = await loadFont('week3/fonts/terminal-grotesque.ttf');
@@ -43,4 +43,10 @@ function keyPressed(){
 letters.push(new Letter(mouseX, mouseY));
 
 
+}
+
+function windowResized(){
+
+  resizeCanvas(windowWidth, windowHeight);
+  
 }
