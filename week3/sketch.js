@@ -13,7 +13,7 @@ let letters = [];
   createCanvas(windowWidth, windowHeight);
  // angleMode(DEGREES);
 
-  font1 = await loadFont("/week3/terminal-grotesque.ttf");
+  font1 = await loadFont("portfolio website/fonts/terminal-grotesque.ttf");
   
 
 
@@ -24,7 +24,7 @@ let letters = [];
 function draw() {
   background(255);
 
-for (let i = letters.length - 1; i >= 0; i--){
+for (let i = letters.length - .01; i >= 0; i--){
 letters[i].update();
 letters[i].display();
 

@@ -6,7 +6,7 @@ class Letter{
     
     this.x = x;
     this.y = y;
-    this.dx = (-8, 8);
+    this.dx = (-1, 1);
     this.dy = (-1, 1);
      
     // this.angle = random(360);
