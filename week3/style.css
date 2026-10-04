@@ -1,0 +1,17 @@
+body {
+  background: white;
+  font-family: terminal-grotesque, sans-serif;
+  
+}
+
+h1 {
+  color: red;
+  font-size: 75px;
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  max-width: 100%;
+  padding: 100px;
+}
