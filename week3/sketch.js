@@ -10,10 +10,10 @@ let letters = [];
 
  async function setup() {
   
-  createCanvas(screenWidth, screenHeight);
+  createCanvas(600, 600);
   angleMode(DEGREES);
 
-  font1 = await loadFont('/fonts/terminal-grotesque.ttf');
+  font1 = await loadFont('week3/fonts/terminal-grotesque.ttf');
   
 
 
