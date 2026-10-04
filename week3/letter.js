@@ -25,7 +25,7 @@ update(){
    
   translate(this.x, this.y); // 
   rotate(this.angle);
-  textFont('terminal-grotesque.woff');
+  textFont(font1);
   textSize(this.size);
   fill(0);
   noStroke();

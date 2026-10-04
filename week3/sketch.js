@@ -13,7 +13,7 @@ let letters = [];
   createCanvas(windowWidth, windowHeight);
  // angleMode(DEGREES);
 
-  font1 = await loadFont('/fonts/terminal-grotesque.woff2');
+  font1 = await loadFont("/fonts/terminal-grotesque.woff2");
   
 
 
