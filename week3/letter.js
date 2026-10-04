@@ -27,7 +27,7 @@ update(){
   rotate(this.angle);
   textFont(font1);
   textSize(this.size);
-  fill(255);
+  fill(0);
   noStroke();
   text(this.letter, 0, 0);
   pop();
