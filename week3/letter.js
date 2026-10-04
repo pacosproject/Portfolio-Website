@@ -9,7 +9,7 @@ class Letter{
     this.dx = (-8, 8);
     this.dy = (-1, 1);
      
-    this.angle = random(360);
+    // this.angle = random(360);
     
   }
 
