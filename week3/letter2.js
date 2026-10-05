@@ -26,11 +26,14 @@ update(){
   translate(this.x, this.y); // 
   rotate(this.angle);
   textFont();
-  textSize(this.size);
-  fill(0);
+  // textSize(this.size);
+  textSize(random(20));
+  fill(255);
   noStroke();
   text(this.letter, 0, 0);
+  frameRate(10);
   pop();
+
    
  }
 

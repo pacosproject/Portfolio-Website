@@ -22,7 +22,7 @@ let letters = [];
 }
 
 function draw() {
-  background(255);
+  background(0);
 
 for (let i = letters.length - 1; i >= 0; i--){
 letters[i].update();
