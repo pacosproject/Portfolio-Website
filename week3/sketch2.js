@@ -6,19 +6,14 @@ let font1;
 
 let letters = [];
 
-function preload(){
-font[0] = loadFont("/fonts/terminal-grotesque.tff");
 
-  
-  
-}
 
  async function setup() {
   
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
 
-  font1 = await loadFont('Portfolio Website/fonts/terminal-grotesque.woff2');
+  font1 = await loadFont('CourierPrime-Regular.ttf');
   
 
 
