@@ -13,7 +13,7 @@ let letters = [];
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
 
-  font1 = await loadFont('CourierPrime-Regular.ttf');
+  font1 = await loadFont("fonts/InterDisplay-BlackItalic.ttf");
   
 
 
