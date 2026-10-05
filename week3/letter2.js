@@ -26,7 +26,7 @@ update(){
   translate(this.x, this.y); // 
   rotate(this.angle);
   // textFont(font1);
-  textFont();
+  // textFont();
   textSize(this.size);
   fill(0);
   noStroke();
