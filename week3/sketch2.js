@@ -13,7 +13,7 @@ let letters = [];
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
 
-  font1 = loadFont("fonts/InterDisplay-BlackItalic.ttf");
+   font1 = await loadFont('/sketchfont/terminal-grotesque.ttf');
   
 
 
