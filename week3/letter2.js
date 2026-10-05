@@ -6,7 +6,7 @@ class Letter{
     
     this.x = x;
     this.y = y;
-    this.dx = (-8, 8); // speed of letters produced
+    this.dx = (-20, 20); // speed of letters produced
     this.dy = (-1, 1);
      
    // this.angle = random(360);
@@ -27,7 +27,7 @@ update(){
   rotate(this.angle);
   textFont();
   textSize(this.size);
-  fill(255);
+  fill(0);
   noStroke();
   text(this.letter, 0, 0);
   pop();
