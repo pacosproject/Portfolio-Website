@@ -1,6 +1,6 @@
 class Letter{
   constructor(x, y){
-    this.alphabets = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",];
+    this.alphabets = ["s"];
 
     this.letter = random(this.alphabets);
     
@@ -27,7 +27,7 @@ update(){
   rotate(this.angle);
   textFont(font1);
   textSize(this.size);
-  fill(255);
+  fill(0);
   noStroke();
   text(this.letter, 0, 0);
   pop();

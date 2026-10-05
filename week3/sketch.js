@@ -15,7 +15,8 @@ let letters = [];
 
  async function setup() {
   
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(600, 600);
+  // createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
 
   font1 = await loadFont('/fonts/terminal-grotesque.ttf');
@@ -27,7 +28,7 @@ let letters = [];
 }
 
 function draw() {
-  background(0);
+  background(255);
 
 for (let i = letters.length - 1; i >= 0; i--){
 letters[i].update();
