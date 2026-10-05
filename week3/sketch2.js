@@ -6,12 +6,12 @@ let font1;
 
 let letters = [];
 
-// function preload(){
-// font[0] = loadFont("/fonts/terminal-grotesque.tff");
+function preload(){
+font[0] = loadFont("/fonts/terminal-grotesque.tff");
 
   
   
-// }
+}
 
  async function setup() {
   
