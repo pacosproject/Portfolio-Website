@@ -5,26 +5,11 @@ const memeText = document.getElementById("meme-text");
 const memeImage = document.getElementById("meme-image");
 
 
-// const words = [
-//   "food",
-//   "funny",
-//   "fire",
-//   "love",
-//   "home",
-//   "skeleton",
-//   "computer",
-//   "angel",
-//   "spiderman",
-//   "skull",
-//   "rainbow",
-//   "tv"
-  
-// ];
-
 const supabaseClient = supabase.createClient(
-  "https://uspxokoxzbajirtyhtjv.supabase.co",
-  "sb_publishable_QfPcMD4M9fWHFAL5oHRznA_7g7g-v5Y"
+  "https://jjtifytgcdzdreyywkrk.supabase.co",
+  "sb_publishable_TRydIVq4-JT_JaIx_lQgNw_ZuvymT-F"
 );
+
 
 
 button.addEventListener("click", generateMeme);
@@ -53,13 +38,15 @@ function generateMeme() {
 // //     memeImage.src = gifURL;
 //   });
 
-  // Get image
+// 
 
 fetch("https://api.adviceslip.com/advice?" + Date.now())
   .then(response => response.json())
   .then(data => {
     memeText.textContent = data.slip.advice;
   });
+
+    // Get image
 
   fetch("https://yesno.wtf/api?" + Date.now())
     .then(response => response.json())

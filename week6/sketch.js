@@ -1,6 +1,6 @@
 const supabaseClient = supabase.createClient(
-  "https://uspxokoxzbajirtyhtjv.supabase.co",
-  "sb_publishable_QfPcMD4M9fWHFAL5oHRznA_7g7g-v5Y"
+  "https://jjtifytgcdzdreyywkrk.supabase.co",
+  "sb_publishable_TRydIVq4-JT_JaIx_lQgNw_ZuvymT-F"
 );
 
 const memeDatabase = document.getElementById("meme-database");
