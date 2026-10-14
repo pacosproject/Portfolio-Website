@@ -729,3 +729,16 @@ button {
   font-size: 40px;
   padding: 10px 20px;
 }
+
+#meme-database {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+#meme-database .meme {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  min-width: 0;
+}
