@@ -18,33 +18,15 @@ saveButton.addEventListener("click", saveMeme);
 function generateMeme() {
 
   // Get text
-  fetch("https://corporatebs-generator.sameerkumar.website/?" + Date.now())
-    .then(response => response.json())
-    .then(data => {
-      memeText.textContent = data.phrase;
-    });
-
-// const word = words[Math.floor(Math.random() * words.length)];
-
-// fetch("https://gifcities.archive.org/api/v1/gifsearch?q=" + word)
-//   .then(response => response.json())
-//   .then(data => {
-//     const result = data[Math.floor(Math.random() * data.length)];
-
-// //     const gifURL =
-// //       "https://web.archive.org/web/" +
-// //       result.gif.replace("/", "im_/");
-
-// //     memeImage.src = gifURL;
-//   });
-
-// 
-
 fetch("https://api.adviceslip.com/advice?" + Date.now())
   .then(response => response.json())
   .then(data => {
     memeText.textContent = data.slip.advice;
   });
+
+
+//   });
+
 
     // Get image
 
