@@ -35,6 +35,10 @@
 
 
 
+
+ 
+
+
 /* ========================================
    GLOBAL
 
@@ -85,7 +89,12 @@ body {
   */
   font-family: "MyFont", Courier, monospace;
 
+
+  src: url("fonts/YoungSerif-Medium.woff2") format("woff2");
+
   font-size: 16px;
+
+
 
   /*
   line-height controls the vertical distance
