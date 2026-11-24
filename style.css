@@ -18,8 +18,8 @@
  
 /*custom cursor*/
 * {
-  cursor: url('cursors/cursor-op2.png'), auto;
-  cursor: url("cursors/cursor-op1.png"), pointer;
+  cursor: url('cursors/cursor-op1.png'), auto;
+  cursor: url("cursors/cursor-op2.png"), pointer;
 }
 
  /* =================================== */
@@ -770,3 +770,8 @@ button {
   bottom: 20px;
   cursor: pointer;
 }
+
+
+/* ========================================
+   WEEK 11: PROCESSING
+======================================== */
