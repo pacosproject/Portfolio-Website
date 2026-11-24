@@ -16,11 +16,18 @@
    src: Where the actual font file is located
 ======================================== */
  
-/*custom cursor*/
-* {
+/*===============custom cursor===============*/
+
+/* * {
   cursor: url('cursors/cursor-op1.png'), auto;
   cursor: url("cursors/cursor-op2.png"), pointer;
-}
+} */
+
+/* a:hover {
+  cursor: url("cursors/cursor-op2.png"), auto;
+  background: black;
+  color: white;
+} */
 
  /* =================================== */
 
@@ -125,11 +132,7 @@ a {
 the mouse is positioned over the link.
 */
 
-a:hover {
-  cursor: url("cursors/cursor-op2.png"), auto;
-  background: black;
-  color: white;
-}
+/*  */
 
 
 /* ========================================
